@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noEmit": false,
+    "outDir": ".serverless-check",
+    "rootDir": ".",
+    "allowImportingTsExtensions": false,
+    "isolatedModules": false,
+    "declaration": false,
+    "sourceMap": false,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "api/**/*.ts",
+    "lib/serverless/**/*.ts",
+    "src/lib/items.ts"
+  ]
+}

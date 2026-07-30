@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+patch-backup-vercel-*
+.serverless-check/
+patch-backup-*/
+
+# Apps Script backend is deployed separately; do not commit local copies
+Code.gs
+Code.gs.txt
